@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/* main */
+.main {
+    padding: 50px 80px;
+}
+.main .header p {
+    font-size: 20px;
+}
+.main .main_img img {
+    width: 80%;
+    margin: 100px 0 50px 0;
+}
+.main .main_title .move_title {
+    font-size:50px;
+    margin: 50px;
+}
+.main .main_title .move_title .flip {
+    height:80px;
+}
+/* profile */
+.profile {
+    padding: 50px 80px;
+    box-sizing: border-box;
+}
+.profile .left_profile {
+    width: 40%;
+    margin-right: 50px;
+}
+.profile .left_profile .profile_img img {
+    width: 100%;
+}
+.profile .left_profile .profile_txt {
+    margin-left: 0;
+    font-size: 15px;
+}
+.profile .left_profile .profile_txt p:first-child {
+    font-size: 20px;
+}
+
+/* right_profile */
+.profile .right_profile {
+    width: 65%;
+    font-size: 15px;
+}
+/* education */
+.profile .right_profile .education > p {
+    font-size: 23px;
+}
+.profile .right_profile .education .education_txt > .day {
+    width: 10%;
+    margin-right: 40px;
+}
+/* certificate */
+.profile .right_profile .certificate > p {
+    font-size: 20px;
+}
+.profile .right_profile .certificate .certificate_txt > .day{
+    width: 10%;
+    margin-right: 40px;
+}
+/* skill */
+.profile .right_profile .skill p:first-child {
+    font-size: 20px;
+}
+/* project */
+.project {
+    padding: 50px;
+}
+.project > img {
+    width: 50px;
+}
+.project > p {
+    font-size: 40px;
+}
+.project_list .content {
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.project_list .content .content_img   {
+    position: relative;
+    width: 310px;
+}
+.project_list .content .content_txt {
+    margin: 20px auto;
+}
+.project_list .content .content_txt .coding_txt {
+    height: 170px;
+}
+.project_list .content .content_txt p:first-child {
+    font-size: 20px;
+}
+.project_list .content .content_txt p:nth-child(2) {
+    font-size: 25px;
+}
+.project_list .content .content_txt p:nth-child(3) {
+    font-size: 18px;
+}
+.project_list .content .content_txt p:nth-child(4) {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.project_list .content .content_txt .coding_btn a {
+    padding: 10px;
+    font-size: 15px;
+}
+/* contact */
+.contact {
+    padding:50px;
+}
+.contact img {
+    width: 40px;
+    height: 40px;
+}
+.contact a {
+    font-size: 18px;
+    padding: 5px;
+    width: 70px;
+}
